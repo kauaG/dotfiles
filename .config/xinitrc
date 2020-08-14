@@ -1,0 +1,7 @@
+# In ~/config/xprofile are some importants commands to run when start the graphical environment
+
+. ~/.xprofile
+
+# Start the WM 
+
+ssh-agent dwm
