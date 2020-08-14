@@ -1,0 +1,12 @@
+#!/bin/sh 
+
+# This script will set the wallpaper.
+# If wal is installed, also generates a colorscheme.
+
+# Location of the wallpaper file.
+
+walloc="${XDG_DATA_HOME:-$HOME/.local/share/}/wall"
+
+# If pywal is installed, use it.
+wal -i "$(readlink -f "$walloc")" -o "${XDG_CONFIG_HOME:-$HOME/.config}/wal/postrun" >/dev/null 2>&1
+xwallpaper --zoom "$walloc"
