@@ -1,5 +1,9 @@
 #!/bin/sh
-
+#	  _  _____ 		
+#	 | |/ / __|		https://gitlab.com/kauaG/
+#	 | ' < (_ |		https://github.com/kauaG/
+#	 |_|\_\___|		Follow me on Mastodon - @kauaG          	
+#			
 xrdb $HOME/.config/Xresources & # Use Xresources colors/settings on startup
 mpd &			# music player daemon
 wall &			# set the wallpaper with the `wall` script
