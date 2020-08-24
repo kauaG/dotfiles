@@ -1,6 +1,6 @@
 #!/bin/sh
 
-xrdb ${XDG_CONFIG_HOME:-$HOME/.config}/Xresources & # Use Xresources colors/settings on startup
+xrdb $HOME/.config/Xresources & # Use Xresources colors/settings on startup
 mpd &			# music player daemon
 wall &			# set the wallpaper with the `wall` script
 dunst &			# dunst for notifications
