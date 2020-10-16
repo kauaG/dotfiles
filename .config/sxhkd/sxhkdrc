@@ -6,16 +6,42 @@
 #	 |_|\_\___|		Follow me on Mastodon - @kauaG          	
 #			
 #	    
+
 # terminal emulator
 super + Return
 	$TERMINAL
 
 # program launcher
 super + @space
-    run_dmenu
+    	rofi
 
 # make sxhkd reload the configuration file
 super + Escape
 	pkill -USR1 -x sxhkd
   
+# browser
+super + b 
+	$BROWSER
+
+# telegram
+super + t
+	telegram-desktop
+		
+# ncmpcpp
+super + m
+	ncmpcpp
+
+# zathura
+super + z
+	zathura
+
+# joplin 
+super + j
+    $TERMINAL -e joplin
+   
+# newsboat 
+super + n
+    $TERMINAL -e newsboat
+
+
 
